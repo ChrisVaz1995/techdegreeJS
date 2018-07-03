@@ -50,10 +50,12 @@ function getRandomQuote() {
   return randomQuote;
 }
 
+
 // This calls the getRandomQuote //
 
 function printQuote() {
   var currentQuote = getRandomQuote();
+  var color = randomColors();
   var message = "<p class='quote'>" + currentQuote.quote + "</p>";
   message += "<p class='source'>" + currentQuote.source + "</p>";
   message += "<span class='citation'>" + currentQuote.citation + "</span>";
@@ -66,7 +68,6 @@ function printQuote() {
   document.getElementById("quote-box").innerHTML = message;
 }
 
-//This randomizes the colors that prints in the background //
 
 function randomColors() {
   var addColor1 = Math.floor(Math.random() * 256);
@@ -77,5 +78,5 @@ function randomColors() {
   document.body.style.background = combineColors;
 }
 
-randomColors();
+
 document.getElementById('loadQuote').addEventListener('click', printQuote, false);
