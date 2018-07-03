@@ -11,8 +11,8 @@ var quotes = [
 {
   quote: "Not everyone who works hard is rewarded. But! All those who succeed have worked hard!",
   source: "Kamogawa Genji",
-  citation: "Hajime no Ippo: The Fighting",
-  year: 2013,
+  citation: "Hajime no Ippo: New Challenger",
+  year: 2002,
   category: " Anime"
 },
 
@@ -20,7 +20,7 @@ var quotes = [
   quote: "There is beauty in simplicity",
   source: "Paul Nakauchi",
   citation: " Overwatch",
-  year: "2016",
+  year: 2016,
   category: " Video Game"
 },
 
@@ -30,6 +30,14 @@ var quotes = [
   citation: " Undeniable Album",
   year: 2012,
   category: " Music"
+},
+
+{
+  quote: "Reptition is the path to mastery",
+  source: " Feodor Chin",
+  citation: " Overwatch ",
+  year: 2016,
+  category: "Video Game"
 }
 
 
