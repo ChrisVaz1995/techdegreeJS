@@ -41,7 +41,7 @@ var quotes = [
 }
 
 
-// This code randomizes the quotes and returning it to the page.//
+// This code randomizes the quotes that it gets from the arrays. //
 ];
 
 function getRandomQuote() {
