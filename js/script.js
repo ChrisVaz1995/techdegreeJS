@@ -1,5 +1,5 @@
 var quotes = [
-
+// Array of quotes //
 {
   quote: "Change is the law of life. And those who look only to the past or present are certain to miss the future.",
   source: "John F. Kennedy",
@@ -41,7 +41,7 @@ var quotes = [
 }
 
 
-
+// This code randomizes the quotes and returning it to the page.//
 ];
 
 function getRandomQuote() {
@@ -49,6 +49,8 @@ function getRandomQuote() {
   var randomQuote = quotes[randomNumber];
   return randomQuote;
 }
+
+// This calls the getRandomQuote //
 
 function printQuote() {
   var currentQuote = getRandomQuote();
@@ -63,6 +65,8 @@ function printQuote() {
 
   document.getElementById("quote-box").innerHTML = message;
 }
+
+//This randomizes the colors that prints in the background //
 
 function randomColors() {
   var addColor1 = Math.floor(Math.random() * 256);
